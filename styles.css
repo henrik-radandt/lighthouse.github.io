@@ -15,7 +15,7 @@ body, html {
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 16px;
 	max-width: 1600px;
-	margin: 0 auto 800px;
+	margin: 0 auto;
 	position: relative;
 }
 
@@ -181,6 +181,14 @@ body, html {
 	color: #CD1619;
 }
 
+.fullScreenContainer--3pr6i {
+    width: 100vw;
+    display: flex;
+}
+
+.fullScreenContainer--3pr6i > img {
+    width: 100%;
+}
 .whitespace--1VG74 {
     height: 300px;
 }
